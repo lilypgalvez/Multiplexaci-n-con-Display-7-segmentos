@@ -29,6 +29,7 @@ void loop(){
     // Se envió un número por el monitor serial: mostrar ese número
     int displayNumero = Serial.parseInt();
     imprimirnumero (displayNumero);
+    Serial.println("Hola Processing soy Arduino");
     
   }
   reset();
